@@ -34,8 +34,6 @@ export const Sequencer = memo(function Sequencer(props: {
       delay += (playBack - delay) * accelAmount
       video.currentTime = delay
     }, 33.3)
-
-    console.log(true)
   }
 
   return (
